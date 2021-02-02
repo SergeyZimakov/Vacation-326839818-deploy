@@ -25,6 +25,6 @@ app.use(session({
 app.use(express.static('upload'));
 app.use('/api', require('../server/apiRouter'));
 
-const port = 8080;
+const PORT = 8080;
 // app.listen(port, () => console.log(`Server is running on port ${port}`))
-server.listen(port, () => console.log(`Server is running on port ${port}`))
+server.listen(process.env.PORT || PORT, () => console.log(`Server is running on port ${port}`))
