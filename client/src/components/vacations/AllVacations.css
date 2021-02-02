@@ -1,0 +1,13 @@
+.bi-plus-circle {
+    font-size: 75px;
+    color: rgb(83, 169, 209);
+}
+
+.bi-plus-circle:hover {
+    cursor: pointer;
+    font-size: 80px;
+}
+
+.allVacations-title {
+    color: rgb(83, 169, 209);
+}

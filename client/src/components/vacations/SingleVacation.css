@@ -1,0 +1,46 @@
+.card {
+    border: 2px solid  rgb(83, 169, 209);
+    padding: 10px;
+    background-color: rgba(138, 138, 138, 0.5);
+    width: 300px;
+    height: 600px;
+    box-shadow: 6px 9px 16px 3px #8E8E8E;
+    margin: 10px;
+}
+.card-text, .card-title {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+.card-title {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.singleVacation-buttons {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.card-body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.card-img-top {
+    max-width: 400px;
+    max-height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.bi-pencil, .bi-trash, .bi-eye, .bi-eye-fill {
+    color: rgb(83, 169, 209);
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px;
+}
+.bi-pencil:hover, .bi-trash:hover, .bi-eye:hover, .bi-eye-fill:hover {
+    cursor: pointer;
+    font-size: 28px;
+}

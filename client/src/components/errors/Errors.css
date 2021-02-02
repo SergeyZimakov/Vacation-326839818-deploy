@@ -1,0 +1,18 @@
+.errors-list {
+    background-color: rgba(209, 9, 9, 0.39);
+    border-radius: 25px;
+    color:rgb(194, 12, 12);
+    font-weight: bold;
+}
+
+.errors-btn {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: transparent;
+    color:rgb(194, 12, 12);
+}
+
+.errors-btn:hover {
+    background-color: rgb(194, 12, 12);
+    color: white;
+}

@@ -1,0 +1,50 @@
+.form-control {
+    border: 2px solid  rgb(83, 169, 209);
+    background-color: transparent;
+    color:  rgb(143, 143, 143);
+}
+.form-control:focus {
+    border: 2px solid  rgb(83, 169, 209);
+    color:  rgb(143, 143, 143);
+    font-weight: bold;
+    box-shadow: 0 0 8px rgb(83, 169, 209);
+    background-color: transparent;
+}
+.form-floating {
+    margin: 20px;
+}
+
+label {
+    color: rgb(92, 90, 90);
+}
+
+.formStyle-text {
+    color:  rgb(83, 169, 209);
+}
+
+.box {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border: 2px solid  rgb(83, 169, 209);
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(105, 120, 128, 0.288);
+}
+
+.btn {
+    font-weight: bold;
+    color:  rgb(83, 169, 209);
+    border: 2px solid rgb(83, 169, 209);
+    margin: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(83, 169, 209);
+    border: 2px solid rgb(83, 169, 209);
+}
